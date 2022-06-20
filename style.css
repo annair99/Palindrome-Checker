@@ -17,12 +17,12 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 40%;
+    top: 22%;
     border-radius: 8px;
     box-shadow: 0 20px 25px rgba(0, 0n, 0, 0.18);
 }
 .container *{
-    font-family: "DM Sans", sans-serif;
+    font-family: "Didot", serif;
     outline: none;
     font-size: 16px;
 }
@@ -48,10 +48,19 @@ button{
 }
 p{
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
     font-weight: 500;
+}
+table{
+    font-family: "Didot", serif;
+	margin-top: 350px;
+	text-align: center;
+	background: #9e9b9b;
+	color: #ffffff;
+}
 
-
+#resultsTable th, #resultsTable td{
+	padding: 13px;
 }
 
  
